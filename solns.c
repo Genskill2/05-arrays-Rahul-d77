@@ -23,9 +23,7 @@ float average(int a[],int b)
 int factors(int a, int c[])
 { int k=0;
   int temp=0;
-  int flag=0;
   int b[50];
-  int fact=0;
   for(int i=2;i<100;i++)
   {
     temp=0;
@@ -44,6 +42,8 @@ int factors(int a, int c[])
       }
     }
      int div=a;
+     int flag=0;
+     int fact=0;
      for(int n=0;n<a;n++)
      {
        for(int d=0;d<k;d++)
