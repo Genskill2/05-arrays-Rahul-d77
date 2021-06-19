@@ -28,7 +28,7 @@ int min(int a[],int b)
   {
     if (MIN>a[i]) 
     {
-      MIN=a[i];    // printf("%i\n",MIN) ;
+      MIN=a[i];    
     }
   }
   return MIN;
