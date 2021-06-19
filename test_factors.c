@@ -31,6 +31,7 @@ int factors(int a, int c[])
   int flag=0;
   int b[50];
   int fact=0;
+  int g;
   for(int i=2;i<100;i++)
   {
     temp=0;
@@ -60,7 +61,8 @@ int factors(int a, int c[])
                    flag++;
                    c[fact]=b[d]; 
                    fact++;
-                   div/=b[d];
+                   g=div/b[d];
+                   div=g;
                    break;
                  }
        
