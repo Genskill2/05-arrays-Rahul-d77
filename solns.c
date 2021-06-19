@@ -77,7 +77,7 @@ int min(int a[],int b)
   {
     if (MIN>a[i]) 
     {
-      MIN=a[i];    // printf("%i\n",MIN) ;
+      MIN=a[i];    
     }
   }
   return MIN;
@@ -97,7 +97,7 @@ int max(int a[],int b)
   {
     if (MAX<a[i]) 
     {
-      MAX=a[i];     //printf("%i\n",MAX) ;
+      MAX=a[i];     
     }
   }
   return MAX;
