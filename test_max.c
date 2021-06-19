@@ -25,7 +25,7 @@ int max(int a[],int b)
   {
     if (MAX<a[i]) 
     {
-      MAX=a[i];     //printf("%i\n",MAX) ;
+      MAX=a[i];     
     }
   }
   return MAX;
