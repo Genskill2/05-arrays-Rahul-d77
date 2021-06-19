@@ -22,9 +22,11 @@ int main(void) {
 
 float average(int a[],int b)
   {int sum=0;
+   int c;
    for(int i=0;i<b;i++)
      {
        sum+=a[i];
      }
-   return sum/b;
+   c=sum/b;
+   return c;
   }
