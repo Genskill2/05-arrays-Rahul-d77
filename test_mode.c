@@ -12,38 +12,3 @@ int main(void) {
   assert (mode(y, 1) == 5);
   printf("Mode: passed\n");
   }
-
-
-
-
-
-
-
-int mode(int a[], int b)
-{ 
-  int m=0;
-  int c;
-  int k=0;
-  int temp;
-  int max;
-  for(int i=0;i<b;i++)
-  {
-    temp=1;
-    max=1;
-    for(int j=i+1;j<=b;j++)
-    {
-      if(a[i]==a[j])
-      temp++;           
-    }
-    if (temp>max)
-    {
-      max=temp;
-      c=a[i];
-    }
-    else if(temp=max)
-    {
-       c=a[i];  
-    }
-  }
-   return c;
-}
